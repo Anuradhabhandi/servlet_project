@@ -1,0 +1,48 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+   background-image: url("https://t4.ftcdn.net/jpg/02/84/46/89/360_F_284468940_1bg6BwgOfjCnE3W0wkMVMVqddJgtMynE.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation-name: example;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+#logo{
+   height: 80px;
+   width:200px;
+   margin-left: 85px;
+   position: absolute;
+   top: 10px;
+
+}
+form{
+
+   height: 150px;
+   width: 350px;
+   position: absolute;
+   top:250px;
+   color: wheat;
+    padding-left: 80px;
+}
+#submit{
+background-color: aliceblue;
+color: black;
+}
+#submit:hover{
+   background-color: orange;
+}
+h1{
+   color: aliceblue;
+   position: absolute;
+   top: 150px;
+   margin-left: 45px;
+}
+
+
+input{
+   background-color: transparent;
+   color: wheat;
+}

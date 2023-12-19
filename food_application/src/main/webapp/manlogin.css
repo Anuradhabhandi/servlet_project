@@ -1,0 +1,64 @@
+body{
+    background-image: url("https://www.shutterstock.com/image-photo/chef-black-suit-holds-his-260nw-1872786652.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation-name: example;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+
+ @keyframes example {
+    from{
+        background-image: url("https://www.shutterstock.com/image-photo/chef-black-suit-holds-his-260nw-1872786652.jpg");
+    }
+    to{background-image: url("https://t4.ftcdn.net/jpg/03/07/35/21/360_F_307352129_dvr99c36HQ8fOUDwhn4awr710K0JqBSJ.jpg");}
+    
+ }
+img{
+    height: 80px;
+    width:200px;
+    margin-left: 85px;
+    position: absolute;
+    top: 10px;
+
+}
+#form{
+    height: 500px;
+    width: 550px;
+    color: aliceblue;
+    position:absolute;
+    top: 150px;
+    margin-left: 550px;
+    padding: 50px;
+}
+#managerlogin{
+    color: orange;
+    /* border: 2px solid ; */
+    height: 150px;
+    width: 350px;
+    margin-left: 650px;
+    padding-top: 100px;
+}
+
+input{
+    background-color: transparent;
+    color: wheat;
+    margin-left: 15px;
+    border-radius: 10px;
+    border: 3px solid wheat;
+    outline: none;
+}
+input:hover{
+    border-color: orange;
+    color:wheat;
+}
+#but{
+    padding: 10px;
+    border-radius: 150px;
+    margin-top:7%;
+}
+#but:hover{
+    background-color: orange;
+    box-shadow: 2px 2px black;
+}

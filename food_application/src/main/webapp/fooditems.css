@@ -1,0 +1,167 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+   background-image: url("https://cdn.wallpapersafari.com/29/46/C4WqVy.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation-name: example;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+
+ @keyframes example {
+    from{
+        background-image: url("https://cdn.wallpapersafari.com/29/46/C4WqVy.jpg");
+    }
+    to{background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC1Le2vY90mp5HX-LMrA3MtI7l1paa173ONvV0zIj79TSYbPLzCVzbGrDzGkiOYSqoh34&usqp=CAU");}
+    
+ }
+ #h1{
+   font-size: 25px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 300px;
+ }
+ #add{
+    height: 400px;
+    width: 400px;
+    /* border: 2px solid black; */
+margin-left: 100px;
+
+ }
+ #addfood{
+    margin-left: 150px;
+    position: absolute;
+    top: 550px;
+    text-decoration: underline;
+ }
+ #addbut{
+    padding: 10px;
+    border-radius: 50px;
+    margin-left: 250px;
+    position: absolute;
+    top: 645px;
+    font-size: large;
+ }
+ #addbut:hover{
+    background-color:rgb(75, 75, 182);
+ }
+ #update{
+    height: 400px;
+    width: 400px;
+    /* border: 2px solid black; */
+    margin-left:550px;
+    position: absolute;
+    top: 135px;
+ }
+ #img2{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+ }
+ #updatefood{
+    margin-left: 600px;
+    position: absolute;
+    top: 550px;
+    text-decoration: underline;
+ }
+ #updatebut{
+    padding: 10px;
+    border-radius: 50px;
+    margin-left: 725px;
+    position: absolute;
+    top: 645px;
+    font-size: large;
+ }
+ #updatebut:hover{
+    background-color:rgb(75, 75, 182);  
+ }
+
+ #delete{
+    height: 400px;
+    width: 400px;
+    /* border: 2px solid black; */
+    margin-left: 1000px;
+    position: absolute;
+    top: 135px;
+
+ }
+ #img3{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+ 
+ }
+ #deletefood{
+    margin-left: 1070px;
+    position: absolute;
+    top: 550px;
+    text-decoration: underline;
+ }
+ #deletebut{
+    padding: 10px;
+    border-radius: 50px;
+    margin-left: 1200px;
+    position: absolute;
+    top: 645px;
+    font-size: large;
+ }
+ #deletebut:hover{
+    background-color:rgb(75, 75, 182);  
+ }
+#logo{
+    height: 80px;
+    width:200px;
+    margin-left: 85px;
+    position: absolute;
+    top: 10px;
+
+}
+#img1{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+   
+}
+
+#form{
+    height: 500px;
+    width: 550px;
+    color: aliceblue;
+    position:absolute;
+    top: 150px;
+    margin-left: 550px;
+    padding: 50px;
+}
+#managerlogin{
+    color: orange;
+    /* border: 2px solid ; */
+    height: 150px;
+    width: 350px;
+    margin-left: 650px;
+    padding-top: 100px;
+}
+
+input{
+    background-color: transparent;
+    color: wheat;
+    margin-left: 15px;
+    border-radius: 10px;
+    border: 3px solid wheat;
+    outline: none;
+}
+input:hover{
+    border-color: orange;
+    color:wheat;
+}
+#but{
+    margin-left: 85px;
+    padding: 10px;
+    border-radius: 150px;;
+}
+#but:hover{
+    background-color: orange;
+    box-shadow: 2px 2px black;
+}

@@ -1,0 +1,59 @@
+*{
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ 
+}
+#img{
+    height: 100px;
+    width: 270px;
+    border: 2px solid;
+}
+body{
+background-image:url("https://t3.ftcdn.net/jpg/05/60/70/82/360_F_560708240_pMZPOuSfvblWGRoaiZFLT4wiFTzQPwQe.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+/* background-size: cover; */
+}
+#form{
+    background-color: aqua;
+}
+#quot{
+    /* border: 2px solid white; */
+    height: 150px;
+    width: 150px;
+    color: aliceblue;
+}
+#quot pre{
+    /* font-size: xxx-large; */
+    font-size: 60px;
+    color: orange;
+    font-weight:900;
+}
+#but{
+    height: 50px;
+    width: 50px;
+    /* border: 2px solid white; */
+    margin-left: 1050px;
+    position: absolute;
+    top: 20px;
+}
+#but h3{
+    color: orange;
+}
+
+#userreg:hover{
+background-color: orange;
+}
+#but1{
+    height: 50px;
+    width: 50px;
+    /* border: 2px solid white; */
+    margin-left: 1190px;
+    position: absolute;
+    top: 20px;
+}
+#but1 h3{
+    color: orange;
+}
+#managerreg:hover{
+background-color: orange;
+}

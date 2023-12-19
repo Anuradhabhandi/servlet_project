@@ -1,0 +1,52 @@
+body{
+    background-image: url("https://www.shutterstock.com/image-photo/sea-cuisine-professional-cook-prepares-600nw-1387710602.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation-name: example;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+    from{ background-image: url("https://www.shutterstock.com/image-photo/sea-cuisine-professional-cook-prepares-600nw-1387710602.jpg"); }
+    to{background-image: url("https://hospitalityinsights.ehl.edu/hubfs/Brand_Experience_Header.jpg");}
+}
+img{
+    height: 80px;
+    width:200px;
+    margin-left: 95px;
+    position: absolute;
+    top: 10px;
+
+}
+#form{
+    height: 500px;
+    width: 550px;
+    color: aliceblue;
+    position:absolute;
+    top: 150px;
+    margin-left: 70px;
+    padding: 50px;
+}
+#managerregister{
+    color: orange;
+    /* border: 2px solid ; */
+    height: 150px;
+    width: 350px;
+    margin-left: 150px;
+    padding-top: 100px;
+}
+#submit:hover{
+    background-color: orange;
+}
+input{
+    background-color: transparent;
+    color: white;
+}
+#submit{
+    background-color: wheat;
+    color: black;
+}
+textarea{
+	background-color: transparent;
+    color: wheat;
+}

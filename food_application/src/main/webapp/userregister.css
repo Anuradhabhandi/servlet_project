@@ -1,0 +1,54 @@
+body{
+    background-image: url("https://www.tastingtable.com/img/gallery/the-best-condiment-to-spice-up-your-burgers/intro-1656682845.jpg");
+  background-repeat: no-repeat;
+    background-size: cover;
+    animation-name: example;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+    from {background-image: url("https://www.tastingtable.com/img/gallery/the-best-condiment-to-spice-up-your-burgers/intro-1656682845.jpg");}
+    to {background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkOgk4FIkm1dzplUqKpoCM_5yYsFXqHgMetQ&usqp=CAU");}
+}
+  #form{
+
+    height: 500px;
+    width: 550px;
+    color: aliceblue;
+    position:absolute;
+    top: 150px;
+    margin-left: 70px;
+    padding: 50px;
+  }
+  
+  input{
+    background-color:transparent;
+    color:white;
+  }
+  #submit:hover{
+    background-color:orange ;
+  }
+  #userregister{
+    color: orange;
+    /* border: 2px solid ; */
+    height: 150px;
+    width: 350px;
+    margin-left: 150px;
+    padding-top: 100px;
+}
+#submit{
+    background-color: bisque;
+    color:black;
+}
+img{
+    height: 80px;
+    width:200px;
+    margin-left: 95px;
+    position: absolute;
+    top: 10px;
+   
+}
+textarea{
+	background-color:transparent;
+    color:white;
+}

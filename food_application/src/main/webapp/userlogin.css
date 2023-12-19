@@ -1,0 +1,66 @@
+body{
+    background-image: url("https://c0.wallpaperflare.com/preview/184/811/591/blur-bread-rolls-counter-cup.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation-name: example;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+
+ @keyframes example {
+    from{
+        background-image: url("https://c0.wallpaperflare.com/preview/184/811/591/blur-bread-rolls-counter-cup.jpg");
+    }
+    to{background-image: url("https://i.postimg.cc/Hkj8WdYX/pexels-roman-odintsov-4551154.jpg");}
+    
+ }
+img{
+    height: 80px;
+    width:200px;
+    margin-left: 85px;
+    position: absolute;
+    top: 10px;
+
+}
+#form{
+    height: 500px;
+    width: 550px;
+    color: aliceblue;
+    position:absolute;
+    top: 150px;
+    margin-left: 550px;
+    padding: 50px;
+}
+#managerregister{
+    color: orange;
+    /* border: 2px solid ; */
+    height: 150px;
+    width: 350px;
+    margin-left: 650px;
+    padding-top: 100px;
+}
+
+input{
+    background-color: transparent;
+    color: white;
+    margin-left: 10px;
+    margin-right:100%;
+    border-radius: 10px;
+    border: 3px solid wheat;
+    outline: none;
+} 
+input:hover{
+    border-color: orange;
+    color:wheat;
+}
+#but{
+    
+    padding: 10px;
+    border-radius: 150px;
+    margin-top:10px;
+}
+#but:hover{
+    background-color: orange;
+    box-shadow: 2px 2px black;
+}

@@ -1,0 +1,34 @@
+body{
+    background-image: url("https://cdn.pixabay.com/photo/2020/03/21/02/26/pizza-4952509_1280.jpg");
+    background-repeat: no-repeat;
+     background-size: cover; 
+   
+  
+    animation-name: example;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: left;
+    color:white;
+}
+/*  @keyframes example{
+     from{
+        background-image: url("https://cdn.pixabay.com/photo/2020/03/21/02/26/pizza-4952509_1280.jpg");
+     }
+     to{
+        background-image: url("https://cdn.pixabay.com/photo/2020/03/25/21/05/pizza-4968645_1280.jpg");
+     }
+} */ 
+@keyframes example {
+    from{ background-image: url("https://cdn.pixabay.com/photo/2018/03/07/18/42/menu-3206749_1280.jpg"); }
+    to{background-image: url("https://cdn.pixabay.com/photo/2018/03/07/18/42/menu-3206748_1280.jpg");}
+}
+
+table{
+    align-items: center;
+    margin-top: 25%;
+    margin-left: 59%;
+    text-color:beige;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+}

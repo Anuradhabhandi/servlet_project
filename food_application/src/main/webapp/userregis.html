@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User-register page</title>
+    <link rel="shortcut icon" href="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_96,h_96/portal/c/logo_2022.png" type="image/x-icon">
+    
+    <link rel="stylesheet" href="userregister.css">
+</head>
+<body>
+  <img src="https://upload.wikimedia.org/wikipedia/en/thumb/1/12/Swiggy_logo.svg/1200px-Swiggy_logo.svg.png" >
+  <div id="userregister">
+    <h1>User Register</h1>
+  </div>
+  <form action="userrgis" method="post" id="form">
+    <table>
+          <tr>
+            <td>First name</td>
+            <td><input type="text" name="fname"></td>
+          </tr>
+    
+          <tr>
+            <td>Last name</td>
+            <td><input type="text" name="lname"></td>
+          </tr>
+          
+          <tr>
+            <td>Email Id</td>
+            <td><input type="email" name="email"></td>
+          </tr>
+          
+          <tr>
+            <td>Password</td>
+            <td><input type="password" name="pwd"></td>
+          </tr>
+          
+          <tr>
+            <td>Phone number</td>
+            <td><input type="tel" name="phn"></td>
+          </tr>
+          
+          <tr>
+            <td>Gender</td>
+            <td><input type="radio" name="gen" onclick="getAnswer('male')" value="male">male</td>
+            <td><input type="radio" name="gen" onclick="getAnswer('female')" value="female">female</td>
+          </tr>
+          
+          <tr>
+               <td>Address</td>
+              <td><textarea col="30" rows="10" name="address"></textarea></td>
+          </tr>
+          
+          <tr>
+             <td><input type="submit" value="Submit" id="submit"></td>
+             <td><a href="userlogin.jsp">Already an user?</a></td>
+          </tr>
+    
+     </table>
+
+
+
+</form>
+</body>
+</html>
